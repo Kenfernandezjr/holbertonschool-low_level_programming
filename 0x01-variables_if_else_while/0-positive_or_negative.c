@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
 /* main - function for main is null  */
+/* Return - void */
+/* if - provides a positive number when 'n' is greater */
+/* else if - provides a is zero if  'n' is equal*/
+/* else - if neither requirements are met, will be Negative */
 
 int main(void)
 
