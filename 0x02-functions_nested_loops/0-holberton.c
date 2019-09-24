@@ -1,9 +1,9 @@
 #include "holberton.h"
 
-/*
+/**
  * main - Entry access
  *
- * Return: - Void/null
+ * Return: 0
  */
 
 int main(void)
