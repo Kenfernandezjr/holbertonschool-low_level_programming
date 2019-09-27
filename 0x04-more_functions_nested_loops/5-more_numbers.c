@@ -2,7 +2,7 @@
 
 
 /**
- * print_most_numbers - check the code for Holberton School students.
+ * most_numbers - check the code for Holberton School students.
  *
  */
 
