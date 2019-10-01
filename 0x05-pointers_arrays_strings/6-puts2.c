@@ -1,7 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * puts2 - check the code for Holberton School students.
+ *
+ * @str: it holds all place holders the string.
  *
  * Return: Always 0.
  */
