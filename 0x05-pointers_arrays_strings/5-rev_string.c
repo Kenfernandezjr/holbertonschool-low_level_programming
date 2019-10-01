@@ -2,7 +2,7 @@
 
 
 /**
- * rev_string - check the code for Holberton School students.
+ * rev_string - function that reserves a string.
  *
  * @s: str held the word Holberton and putting it in reverse.
  *
@@ -15,12 +15,14 @@ void rev_string(char *s)
 	char y;
 	int counter;
 
-	for (counter = 0; *s != '\0'; s++)
+	counter = 0;
+
+	for (; *s != '\0'; s++)
 	{
 		counter++;
 	}
 	s--;
-	for (counter /= 2; counter >= 0; counter--)
+	for (counter /= 2; counter > 0; counter--)
 	{
 		y = *s;
 		*s = *x;
