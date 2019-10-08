@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stddef.h>
 
 /**
  * *_strchr - function for this project.
@@ -15,11 +14,11 @@ char *_strchr(char *s, char c)
 	{
 		if (s[counter] == c)
 		{
+			return (s + counter);
 		}
-		return (s + counter);
 	}
-	if (s[counter] == '\0')
+	if (s[counter] != c)
 	{
 	}
-	return (NULL);
+	return ('\0');
 }
