@@ -20,7 +20,8 @@ char *_strchr(char *s, char c)
 	}
 	if (s[counter])
 	{
-		return (s + counter);
+
 	}
+	return (s + counter);
 	return (NULL);
 }
