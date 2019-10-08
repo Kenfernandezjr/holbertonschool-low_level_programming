@@ -18,10 +18,6 @@ char *_strchr(char *s, char c)
 			return (s + counter);
 		}
 	}
-	if (s[counter])
-	{
-
-	}
 	return (s + counter);
 	return (NULL);
 }
