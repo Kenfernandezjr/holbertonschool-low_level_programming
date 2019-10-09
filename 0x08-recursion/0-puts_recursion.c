@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * _puts_recursion - function to use recursion.
@@ -11,6 +10,11 @@ void _puts_recursion(char *s)
 {
 	if (*s)
 	{
-		puts(s);
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+	if (*s == '\0')
+	{
+		_putchar('\n');
 	}
 }
