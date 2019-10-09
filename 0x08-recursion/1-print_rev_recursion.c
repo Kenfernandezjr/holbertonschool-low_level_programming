@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _print_rev_recursion - function to use recursion.
+ * _print_rev_recursion - function to use to reverse recursion.
  *
- * @s: - holds the string Betty Holberton.
+ * @s: - holds the string Colton Walker.
  */
 
 void _print_rev_recursion(char *s)
