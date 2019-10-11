@@ -5,6 +5,8 @@
  *
  * @i: integer that helps with equation for sqrt.
  *
+ * @n: is the number returned of the squareroot.
+ *
  * Return: - helper and i + 1 so it can increment.
  */
 
@@ -18,7 +20,7 @@ int check_sqrt(int n, int i)
 	{
 		return (-1);
 	}
-	return (check_sqrt (n, i + 1));
+	return (check_sqrt(n, i + 1));
 }
 /**
  * _sqrt_recursion - Function for the project.
@@ -34,5 +36,5 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	return (check_sqrt (n, 1));
+	return (check_sqrt(n, 1));
 }
