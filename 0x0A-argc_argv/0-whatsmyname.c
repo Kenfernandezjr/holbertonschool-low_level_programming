@@ -5,7 +5,7 @@
  * main - function for this project.
  * @argc: is the length
  * @argv: string that holds statement.
- * return: Null/Zero.
+ * Return: Null/Zero.
  */
 
 int main(int argc, char *argv[])
