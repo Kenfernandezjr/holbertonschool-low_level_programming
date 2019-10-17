@@ -4,7 +4,7 @@
 /**
  * malloc_checked - Function for allocating memory.
  *
- * @s: void pointer for allocating memory
+ * @b: void pointer for allocating memory
  *
  * Return:- returning the pointer allocated memory space.
  */
