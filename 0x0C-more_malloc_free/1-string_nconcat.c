@@ -3,10 +3,11 @@
 
 
 /**
- * string_nconcat-function for project.
+ * string_nconcat:-function for project.
  * @s1: string 1
  * @s2: string 2
- * return:- s1
+ * @n: unsigned integer for this project.
+ * Return:- s1
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
