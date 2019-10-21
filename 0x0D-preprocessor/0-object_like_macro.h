@@ -1,4 +1,3 @@
-#if SIZE == 1024
+#ifndef SIZE
 #define SIZE 1024
-
-#endif /* SIZE is large */
+#endif /* SIZE */
