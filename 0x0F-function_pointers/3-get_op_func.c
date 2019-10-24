@@ -1,0 +1,13 @@
+#include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ * get_op_func- function.
+ * @s:- char type.
+ * Return:- a pointer to the function.
+ */
+int (*get_op_func(char *s))(int, int)
+{
+
+}
