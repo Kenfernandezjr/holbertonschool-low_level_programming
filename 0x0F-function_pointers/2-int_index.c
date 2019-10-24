@@ -6,6 +6,7 @@
  * @array:- integer that holds the number.
  * @size:- size of the string.
  * @cmp:- Function pointer.
+ * Return:- negative 1.
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
