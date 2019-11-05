@@ -4,20 +4,20 @@
 
 /**
  * print_listint - function for print list in numbers.
- * @h: yea
- *
+ * @h: head of the list.
+ * Return:- return elements with the counter.
  */
 
 size_t print_listint(const listint_t *h)
 {
-	unsigned int counter;
+	unsigned int counter = 0;
+	const listint_t *pCurrentNode = h;
 
-	while (h != 0)
+	while (pCurrentNode != 0)
 	{
-		printf("%d\n", h->n);
-		h = h->next;
+		printf("%d\n", pCurrentNode->n);
+		pCurrentNode = pCurrentNode->next;
 		counter++;
 	}
-
 	return (counter);
 }
