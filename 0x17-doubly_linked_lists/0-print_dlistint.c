@@ -5,8 +5,7 @@
 
 /**
  * print_dlistint - Main function for printing list.
- * @node:- copy of head to move to next node.
- * @elements:- to count how many nodes.
+ * @h: head of the linklist/ first node.
  * Return:- elements to show count.
  */
 
