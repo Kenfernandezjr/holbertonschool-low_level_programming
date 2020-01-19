@@ -6,7 +6,9 @@
 
 /**
  * hash_table_create - main function to create a table.
- * @size:- the newhash size.
+ *
+ *@size:- the newhash size.
+ *
  * Return:- new hash table.
  */
 
@@ -19,10 +21,11 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	if (newHash == NULL)
 	{
-		free(newHash);
 		return (NULL);
 	}
+
 	newHash->array = malloc(sizeof(hash_table_t *) * size);
+
 	if (newHash->array == NULL)
 	{
 		free(newHash);
