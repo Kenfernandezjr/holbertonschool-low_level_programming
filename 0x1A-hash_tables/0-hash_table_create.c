@@ -22,7 +22,12 @@ hash_table_t *hash_table_create(unsigned long int size)
 		free(newHash);
 		return (NULL);
 	}
-
+	newHash->array = malloc(sizeof(hash_table_t *) * size);
+	if (newHash->array == NULL)
+	{
+		free(newHash);
+		return (NULL);
+	}
 	while (counter > size)
 	{
 		newHash->array[counter] = NULL;
