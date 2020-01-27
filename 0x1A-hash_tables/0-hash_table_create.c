@@ -6,9 +6,7 @@
 
 /**
  * hash_table_create - main function to create a table.
- *
  *@size:- the newhash size.
- *
  * Return:- new hash table.
  */
 
@@ -36,6 +34,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 		newHash->array[counter] = NULL;
 		counter++;
 	}
+
 	newHash->size = size;
 	return (newHash);
 }
