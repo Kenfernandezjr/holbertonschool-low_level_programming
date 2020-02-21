@@ -1,8 +1,8 @@
 #declare the variable
 CC = gcc
 
-SRC = $(*.c)
+SRC = holberton.c
 
 
 all:
-	$(CC) main.c holberton.c -o holberton
+	$(CC) main.c $(SRC) -o holberton
