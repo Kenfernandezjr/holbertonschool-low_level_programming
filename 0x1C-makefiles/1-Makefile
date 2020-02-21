@@ -1,0 +1,8 @@
+#declare the variable
+CC = gcc
+
+SRC = $(*.c)
+
+
+all:
+	$(CC) main.c holberton.c -o holberton
