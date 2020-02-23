@@ -1,3 +1,5 @@
+# Makefile with flags and using RM (non-variable)
+
 CC = gcc
 SRC = main.c holberton.c
 OBJ = $(SRC:.c=.o)
