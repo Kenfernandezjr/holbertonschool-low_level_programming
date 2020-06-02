@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "search_algos.h"
 
+/**
+ * linear_search - function that does a linear search
+ * @array: the array
+ * @size: size of the given array
+ * @value: is an integer of what ever number is given to comepare
+ * Return:- negative one.
+ */
+
 
 int linear_search(int *array, size_t size, int value)
 {
